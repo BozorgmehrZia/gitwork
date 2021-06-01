@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #3c1191;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.controller.MainMenuController">
+   <children>
+      <Label layoutX="339.0" layoutY="55.0" prefHeight="62.0" prefWidth="226.0" text="Main Menu" textFill="#ed7777">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="startNewGame" layoutX="285.0" layoutY="145.0" mnemonicParsing="false" onAction="#startNewGame" prefHeight="68.0" prefWidth="327.0" text="Start new game">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="scoreboard" layoutX="285.0" layoutY="436.0" mnemonicParsing="false" onAction="#gotoScoreboard" prefHeight="68.0" prefWidth="327.0" text="Scoreboard">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="maps" layoutX="285.0" layoutY="341.0" mnemonicParsing="false" onAction="#gotoMaps" prefHeight="68.0" prefWidth="327.0" text="Maps">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="continueSavedGame" layoutX="285.0" layoutY="244.0" mnemonicParsing="false" onAction="#startSavedGame" prefHeight="68.0" prefWidth="327.0" text="Continue saved game">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="25.0" layoutY="549.0" mnemonicParsing="false" onAction="#back" prefHeight="68.0" prefWidth="152.0" text="Back">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="options" layoutX="721.0" layoutY="549.0" mnemonicParsing="false" onAction="#options" prefHeight="68.0" prefWidth="152.0" text="Options">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

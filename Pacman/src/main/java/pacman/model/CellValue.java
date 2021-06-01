@@ -1,0 +1,5 @@
+package pacman.model;
+
+public enum CellValue {
+    EMPTY, SMALL_DOT, BIG_DOT, WALL, GHOST1HOME, GHOST2HOME, GHOST3HOME, GHOST4HOME, PACMAN_HOME
+}

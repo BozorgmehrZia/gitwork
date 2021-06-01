@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.controller.WelcomeController">
+   <children>
+      <Button fx:id="Register" layoutX="272.0" layoutY="343.0" mnemonicParsing="false" onAction="#register" prefHeight="44.0" prefWidth="167.0" text="Register">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="usernameField" layoutX="274.0" layoutY="174.0" prefHeight="48.0" prefWidth="354.0" />
+      <Label layoutX="273.0" layoutY="142.0" prefHeight="30.0" prefWidth="92.0" text="Username" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="273.0" layoutY="236.0" text="Password" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <PasswordField fx:id="passwordField" layoutX="274.0" layoutY="265.0" prefHeight="48.0" prefWidth="354.0" />
+      <Button fx:id="login" layoutX="460.0" layoutY="343.0" mnemonicParsing="false" onAction="#login" prefHeight="44.0" prefWidth="167.0" text="Login">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label layoutX="303.0" layoutY="69.0" prefHeight="75.0" prefWidth="296.0" text="Welcome to Pacman" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="272.0" layoutY="507.0" prefHeight="36.0" prefWidth="354.0" text="Developed By : Bozorgmehr Zia" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="newAnonymousGame" layoutX="312.0" layoutY="434.0" mnemonicParsing="false" onAction="#startNewAnonymousGame" prefHeight="30.0" prefWidth="275.0" text="Start game without register">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

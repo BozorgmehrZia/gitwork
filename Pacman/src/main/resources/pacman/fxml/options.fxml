@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #c93e4f" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.controller.OptionsController">
+   <children>
+      <Label layoutX="298.0" layoutY="104.0" text="Old password" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="350.0" layoutY="46.0" text="Change password" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+      <PasswordField fx:id="oldPasswordField" layoutX="298.0" layoutY="139.0" prefHeight="47.0" prefWidth="304.0" />
+      <Label layoutX="298.0" layoutY="206.0" text="New password" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <PasswordField fx:id="newPasswordField" layoutX="298.0" layoutY="240.0" prefHeight="47.0" prefWidth="304.0" />
+      <Button layoutX="394.0" layoutY="307.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="50.0" prefWidth="110.0" text="change">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="341.0" layoutY="380.0" mnemonicParsing="false" onAction="#deleteAccount" prefHeight="58.0" prefWidth="216.0" text="Delete account">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="398.0" layoutY="531.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="301.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#mute" text="Mute/Unmute Sounds">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

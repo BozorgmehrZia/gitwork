@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.ScoreboardController">
+   <children>
+      <TableView fx:id="table" layoutX="174.0" layoutY="118.0" prefHeight="419.0" prefWidth="550.0">
+        <columns>
+          <TableColumn fx:id="rate" prefWidth="100.0" text="Rate" />
+          <TableColumn fx:id="username" prefWidth="350.0" text="Username" />
+            <TableColumn fx:id="score" prefWidth="100.0" text="Score" />
+        </columns>
+      </TableView>
+      <Label layoutX="375.0" layoutY="55.0" text="Scoreboard">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="109.0" />
+      <Button layoutX="430.0" layoutY="548.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
